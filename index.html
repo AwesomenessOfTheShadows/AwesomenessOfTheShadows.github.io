@@ -1,54 +1,94 @@
 <!DOCTYPE html>
-<html lang="en"></html>
-  <head>
+<html lang="en">
+
+<head>
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <title>Fencing for beginners: What weapon to choose?</title>
-    <meta charset= ""charset="utf -8">
+    <meta charset="" charset="utf -8">
     <meta name="keywords" content="Fencing, SBHS">
     <meta name="author" content="Akith Perera">
-    <link rel="stylesheet" type="text/css" href="Home.css">
-  </head>
-<header id='topbar' class='topbar'>
-  <img src='LOGO.png' alt='Logo' class='Title'><h1 id = 'Title' class = 'Title'>FENCING: What weapon to choose? &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</h1>
-  <nav id = 'navlinks' class = 'navlinks'>
-    <a href='Sabre.html' style="text-decoration: none">Sabre &nbsp&nbsp</a>
-    <a href='Epee.html' style="text-decoration: none">Epee &nbsp&nbsp</a>
-    <a href='Foil.html'style="text-decoration: none">Foil</a>
-  </nav>
-</header>
+    <link rel="stylesheet" type="text/css" href="defaults.css">
+    <link rel="stylesheet" type="text/css" href="home.css">
+</head>
+
 <body>
-  <nav>
-    <ul>
-      <li><a href='What is fencing.html'>What is<br>fencing?</a></li>
-      <div class='NAVSABRE'><li><img src='sabresword.png' class='Sabrenavimg'><img src='sabresword-flip.png' class='Sabrenav2'><a class = 'Sabrenav' href='Sabre.html'>Sabre</a></li></div>
-      <div class='NAVEPEE'><li><img src='epeesword.png' class='Epeenavimg'><img src='epeesword-flip.png' class='Epeenav2'><a id = 'Epeenav' href='Epee.html'>Epee</a></li></div>
-      <div class='NAVFOIL'><li><img src='foilsword.png' class='Foilnavimg'><img src='foilsword-flip.png' class='Foilnav2'><a id = 'Foilnav' href='Foil.html'>Foil</a></li></div>
-    </ul>
-  </nav>
-  <div class= 'About' style="cursor:pointer" onclick="document.location='What is fencing.html'">
-    <h1 class='Headerweapons'>Choosing a weapon can be hard</h1>
-    <h3 class='Headerweapons'>But ... we are here to help</h3>
-    <p class='Headerweapons'>You might even be wondering, what <em>is </em>&nbsp<a href='What is fencing.html' style='color: cornflowerblue'><strong>fencing</strong>?</a></p>
-  </div>
-  <div class = 'weapons'>
-    <h1 class='weaponheader' style ='margin-left: 630px' >Weapons</h1>
-    <div id = 'sabreid' class='sabre' style="cursor:pointer" onclick="document.location='sabre.html'">
-      <h1 style = 'text-align: center' class='Headerweapons'>Sabre</h1>
-      <img class='Sabreimg' src='Sabre.jpg' alt='Sabre'>
-      <p style= 'text-align: center;'>Sabre is faced paced and requires agility, speed and a quick reaction time. Sabre uses the concept of priority to judge who gets the point</p>
-    </div>
-    <div id = 'epeeid' class = 'epee' style="cursor:pointer" onclick="document.location='epee.html'">
-      <h1 style = 'text-align: center' class='Headerweapons'>Epee</h1>
-      <img class='Epeeimg' src='epee.jpg' alt='Epee mask'>
-      <p style = 'text-align: center'>Epee is a slower paced game needing strategy and patience. All you need to do is to try hit the other person without getting hit. </p>
-    </div>
-    <div id = 'foilid' class = 'foil' style="cursor:pointer" onclick="document.location='foil.html'">
-      <h1 style = 'text-align: center' class='Headerweapons'>Foil</h1>
-      <img class='Foilimg' src='foil.jpg' alt='Foil'>
-      <p style = 'text-align: center'>Foil is a popular weapon that requires precision and agility. Foil uses the concept of priority to judge who gets the point </p>
-    </div>
-  </div>
+    <header class="navbar">
+        <img src="logo.png" alt="Logo" class="logo">
+        <h1 class="title">FENCING: What weapon to choose?</h1>
+        <nav class="nav-links">
+            <a href="sabre.html">Sabre</a>
+            <a href="epee.html">Epee</a>
+            <a href="foil.html">Foil</a>
+        </nav>
+    </header>
+
+    <nav class="sidebar">
+        <a href="what-is-fencing.html">What is<br>fencing?</a>
+
+        <ul>
+            <li>
+                <a class="sidebar-link">
+                    <img src="sabresword.png" class="sword">
+                    <p>Sabre</p>
+                </a>
+            </li>
+            <li>
+                <a class="sidebar-link">
+                    <img src="epeesword.png" class="sword">
+                    <p>Epee</p>
+                </a>
+            </li>
+            <li>
+                <a class="sidebar-link">
+                    <img src="foilsword.png" class="sword">
+                    <p>Foil</p>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <a class="about" href="what-is-fencing.html">
+            <h1>Choosing a weapon can be hard</h1>
+            <h3>But ... we are here to help</h3>
+            <p>
+                You might even be wondering, what 
+                <em>is </em>
+                <span style="color: cornflowerblue"><strong>fencing</strong>?</span>
+            </p>
+        </a>
+
+        <h1 class="weapon-header">Weapons</h1>
+        
+        <div class="weapons">
+            <a class="sabre" href="sabre.html">
+                <h1>Sabre</h1>
+                <img class="weapon-img" src="Sabre.jpg" alt="Sabre">
+                <p>
+                    Sabre is faced paced and requires agility, speed and a quick reaction time. Sabre
+                    uses the concept of priority to judge who gets the point
+                </p>
+            </a>
+    
+            <a href="epee.html">
+                <h1>Epee</h1>
+                <img class="weapon-img" src="epee.jpg" alt="Epee mask">
+                <p>
+                    Epee is a slower paced game needing strategy and patience. All you need to do is to
+                    try hit the other person without getting hit.
+                </p>
+            </a>
+    
+            <a href="foil.html">
+                <h1>Foil</h1>
+                <img class="weapon-img" src="foil.jpg" alt="Foil">
+                <p>
+                    Foil is a popular weapon that requires precision and agility. Foil uses the concept
+                    of priority to judge who gets the point
+                </p>
+            </a>
+        </div>
+    </main>
 </body>
-<script>
-  //setTimeout(function(){ alert("Do Sabre!"); }, 8000);
-</script>
+
+</html>
