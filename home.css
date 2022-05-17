@@ -56,7 +56,15 @@ body {
     word-break: break-all;
 }
 
-ul {
+.sidebar-header {
+    display: block;
+    width: 100%;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.side-links {
+    font-size: 1.3rem;
     list-style: none;
     margin: 0;
     padding: 0;
