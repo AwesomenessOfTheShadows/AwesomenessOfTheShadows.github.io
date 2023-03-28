@@ -1,5 +1,5 @@
 Fencing Website:
 
-Fnenicing wbeiste so tyou can chos e your weapson easiyl and efecigvely.
+Fencing website so you can choose your weapon easily and effectively.
 
-Made by Perascuas, Pydaethon, nad amawggigen.
+Managed by Perera Sauce, AndrewPerson, Vert MawIIgen and Iraejgao.
